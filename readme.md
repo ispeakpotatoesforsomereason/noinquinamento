@@ -1,1 +1,1 @@
-ciao, questo è un bot discord ecologico, quindi qui puoi vedere il calendario (devi fare delle photo del tuo vero calendario e fare una cartella chiamata immagini che le contiene), dei consigli per casa, lavoro o scuola e turnoff solo se hai permessi admin
+ciao, questo è un bot discord ecologico, quindi qui puoi vedere il calendario (devi fare delle photo del tuo vero calendario e fare una cartella chiamata immagini che le contiene), dei consigli per casa, lavoro o scuola e turnoff solo se hai permessi admin (!help per commandi)
