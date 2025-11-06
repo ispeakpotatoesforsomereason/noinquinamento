@@ -31,11 +31,11 @@ async def info(ctx):
 @bot.command()
 async def consigli(ctx, parametro: str):
     consigli_dict = {
-        "casa": "per ridurre l'inquinamento a casa, puoi spegnere gli apparecchi elettronici quando non li usi e preferire prodotti locali e sostenibili.",
-        "scuola": "a scuola, promuovi il riciclo, utilizza materiali didattici digitali per ridurre l'uso della carta e organizza giornate di pulizia dell'ambiente.",
-        "lavoro": "al lavoro, riduci gli sprechi di carta e implementa politiche di ufficio verde come il riciclo e l'uso di energie rinnovabili.",
-        "carta": "per ridurre l'inquinamento legato alla carta, usa carta riciclata, stampa solo quando necessario e preferisci comunicazioni digitali (pero non giocare a quei giochi stupidi digitali come plants vs. brainrots, per favore).",
-        "plastica": "per ridurre l'inquinamento da plastica, utilizza borse riutilizzabili e partecipa a programmi di raccolta differenziata."
+        "casa": "per ridurre l'inquinamento a casa, puoi spegnere gli apparecchi elettronici quando non li usi e preferire prodotti locali.",
+        "scuola": "a scuola, promuovi il riciclo, utilizza materiali didattici digitali e non buttare pezzi di carta per terra perche i bidelli sono umani",
+        "lavoro": "al lavoro, riduci gli sprechi di carta e chiedi a il tuo capo (chiunque è) di implementare il riciclo e l'uso di energie rinnovabili.",
+        "carta": "per ridurre l'inquinamento legato alla carta, usa carta riciclata, stampa solo quando necessario e preferisci cose digitali (pero non giocare a quei giochi stupidi digitali come plants vs. brainrots, per favore).",
+        "plastica": "per ridurre l'inquinamento da plastica, non buttare bottiglie di plastica per nessun motivo perchè non è difficile tenere una semplice bottiglia in mano per tipo 10 minuti"
     }
     consiglio = consigli_dict.get(parametro.lower(), "mi dispiace, non ho consigli per questo parametro, prova con 'casa', 'scuola' o 'lavoro'.")
     await ctx.send(consiglio)
